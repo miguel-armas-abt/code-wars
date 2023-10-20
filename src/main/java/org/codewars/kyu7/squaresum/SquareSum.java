@@ -1,4 +1,4 @@
-package org.codewars.kyu7;
+package org.codewars.kyu7.squaresum;
 
 /**
  * Complete the square sum function so that it squares each number passed into it and then sums the results together.
@@ -8,7 +8,7 @@ package org.codewars.kyu7;
 
 import java.util.Arrays;
 
-public class SquareSun {
+public class SquareSum {
   public static void main(String[] args) {
     int[] values = new int[]{1, 2, 2};
     System.out.println(squareSum(values) + "");
